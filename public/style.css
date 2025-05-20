@@ -1,0 +1,45 @@
+/* Add your custom styles for a modern, impressive UI */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7fa;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+}
+h1, h2 {
+  color: #4a148c;
+  text-align: center;
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #4a148c;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #7c43bd;
+}
+.error {
+  color: #d32f2f;
+  text-align: center;
+}
+.success {
+  color: #388e3c;
+  text-align: center;
+}
